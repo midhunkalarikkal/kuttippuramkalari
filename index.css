@@ -532,8 +532,8 @@ html, body {
   .switchbtn
   {
     text-align: center;
-    margin-top: -6%;
-    padding: 50px 0;
+    margin-top: -8%;
+    padding: 30px 0;
   }
 
   .switch {
@@ -574,11 +574,11 @@ html, body {
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #f4976c;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #f4976c;
   }
   
   input:checked + .slider:before {
@@ -633,8 +633,8 @@ html, body {
 }
 .gallery .gallery-filter .filter-item.active{
   color: white;
-  border-color : #16b5ef;
-  background: #16b5ef;
+  border-color : #f4976c;
+  background: #f4976c;
 }
 .gallery .gallery-item{
 	width: calc(100% / 3);
