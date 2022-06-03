@@ -525,8 +525,21 @@ html, body {
     color: #444;
     text-align: justify;
     font-family: Verdana, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
+  }
+
+  .single-well .malpara
+  {
+    font-size: 15px;
+    font-weight: 700;
+    color: #444;
+    text-align: justify;
+  }
+
+  .single-well iframe{
+    width: 100%;
+    height: 300px;
   }
 
   .switchbtn
