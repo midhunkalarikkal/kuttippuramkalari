@@ -1081,9 +1081,18 @@ html, body {
   margin-top: 30px;
 }
 
-.footer-contacts p span {
-  color: #f4976c;
-  font-weight: 700;
+.footer-contacts .wp {
+  color: #128C7E;
+}
+
+.footer-contacts .em {
+  color: #DB4437;
+}
+
+.footer-contacts p a  {
+  color: #000000;
+  font-weight: 600;
+  background: transparent;
 }
 
 .popular-tag ul li {
@@ -1093,7 +1102,6 @@ html, body {
 .footer-content {
   display: block;
   overflow: hidden;
-  text-align: center;
 }
 
 .popular-tag ul li a:hover, .footer-icons ul li a:hover {
@@ -1151,7 +1159,7 @@ html, body {
   text-align: center;
 }
 
-.devdp
+.footer-contacts
 {
   text-align: center;
 }
@@ -1162,7 +1170,6 @@ html, body {
   height: 100px;
   border: 4px solid rgb(112, 110, 110);
 }
-
 /*--------------------------------------------------------------
 # Responsive
 --------------------------------------------------------------*/
