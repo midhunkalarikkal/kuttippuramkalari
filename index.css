@@ -1387,7 +1387,7 @@ html, body {
 
 .testimonials {
   padding: 80px 0;
-  background: url("/assets/img/background/page-header.jpg") no-repeat;
+  background: url("/assets/img/background/bg1.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1399,7 +1399,7 @@ html, body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
 }
 .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
   overflow: hidden;
