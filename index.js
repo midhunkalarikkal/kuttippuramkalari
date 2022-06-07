@@ -1,9 +1,4 @@
-/**
-* Template Name: eBusiness - v4.7.0
-* Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
     "use strict";
   
@@ -181,6 +176,8 @@
     });
   })()
   
+
+  //Gallery section filter button START
   
   const filterContainer = document.querySelector(".gallery-filter");
     const galleryItems = document.querySelectorAll(".gallery-item");
@@ -212,6 +209,10 @@
     }
   });
 
+  //Gallery section filter button END
+
+  //About section toggle button START
+
   function toggleDiv(divid)
   {
     varon = divid + 'on';
@@ -234,3 +235,23 @@ function replace() {
     document.getElementById("div1").style.display="none";
     document.getElementById("div2").style.display="block";
     }
+
+//About section toggle button END
+
+/**
+   * Testimonials slider
+   */
+ new Swiper('.testimonials-slider', {
+  speed: 600,
+  loop: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false
+  },
+  slidesPerView: 'auto',
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true
+  }
+});
