@@ -259,7 +259,7 @@ html, body {
 
 @keyframes textclip {
   to {
-    background-position: 100% center;
+    background-position: 200% center;
   }
 }
 
@@ -560,12 +560,6 @@ html, body {
   }
   100%{
     content: "नमस्ते";
-  }
-}
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
   }
 }
 
