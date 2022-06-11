@@ -238,13 +238,32 @@ html, body {
     font-weight: bold;
   }
   #header .logo h1 span {
-    color: #f4976c;
+    color: #fff;
   }
   #header .logo h1 a, #header .logo h1 a:hover {
     color: #fff;
-    text-decoration: none;
-    text-decoration: underline 3px;
+    text-decoration: underline 3px solid wheat;
+    background-image: linear-gradient(
+      -225deg,
+      #f8e8b8 0%,
+      #F0B99A 25%,
+      #7c715c 75%,
+      #2E231D 100%
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 100% center;
   }
+}
+
+
   #header .logo img {
     padding: 0;
     margin: 0;
@@ -508,27 +527,40 @@ html, body {
     }
   }
 
-  .logop
+  .logop::before
 {
-   text-transform: uppercase;
+  text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #f4976c 0%,
-    #fba780 29%,
-    #c8722c 67%,
-    #fcb391 100%
+    #f8e8b8 0%,
+    #F0B99A 29%,
+    #7c715c 67%,
+    #2E231D 100%
   );
-  background-size: auto auto;
-  background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  content: "";
+  animation: words 6s infinite;
+}
+
+@keyframes words{
+  0%{
+    content: "NAMASTE";
+  }
+  50%{
+    content: "നമസ്‌തെ ";
+  }
+  100%{
+    content: "नमस्ते";
+  }
 }
 
 @keyframes textclip {
@@ -540,6 +572,12 @@ html, body {
 @media (max-width: 768px) {
   .logop {
     font-size: 35px ;
+  }
+}
+
+@media (max-width: 480px) {
+  .logop {
+    font-size: 25px ;
   }
 }
 
