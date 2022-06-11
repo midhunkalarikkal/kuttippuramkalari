@@ -444,6 +444,64 @@ html, body {
   #hero .container {
     text-align: center;
   }
+
+  .logochange::before
+{
+  text-transform: uppercase;
+  background-image: linear-gradient(
+   to right,
+   #cb9b51 0,
+   #d8a659 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#d8a659 78%,
+	#cb9b51 100%
+  );
+  background-size: 100% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: 600;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  content: "";
+  animation: words 6s infinite;
+  line-height: 1.6em;
+}
+
+@keyframes words{
+  0%{
+    content: "NAMASTE";
+  }
+  50%{
+    content: "നമസ്‌തെ";
+  }
+  100%{
+    content: "नमस्ते";
+  }
+}
+
+@media (max-width: 1980px) {
+  .logochange  {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 720px) {
+  .logochange  {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logochange  {
+    font-size: 25px;
+  }
+}
+
   #hero h2 {
     color: #f4976c;
     margin-bottom: 20px;
@@ -461,7 +519,7 @@ html, body {
     font-size: 25px;
     line-height: 1.2;
     margin: 0 auto 30px auto;
-    color: #fff;
+    color: #f4976c;
     font-weight: 550;
   }
   @media (min-width: 1024px) {
@@ -522,58 +580,20 @@ html, body {
   }
 
   @media (max-width: 768px) {
-    .carousel-logo {
+    .carousel-logo  {
+      min-width: 40%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .carousel-logo  {
       min-width: 80%;
     }
   }
 
-  .logop::before
-{
-  text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #f8e8b8 0%,
-    #F0B99A 29%,
-    #7c715c 67%,
-    #2E231D 100%
-  );
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-  font-size: 40px;
-  font-weight: 600;
-  transform: translate(-50%,-50%);
-  position: absolute;
-  content: "";
-  animation: words 6s infinite;
-}
 
-@keyframes words{
-  0%{
-    content: "NAMASTE";
-  }
-  50%{
-    content: "നമസ്‌തെ ";
-  }
-  100%{
-    content: "नमस्ते";
-  }
-}
 
-@media (max-width: 768px) {
-  .logop {
-    font-size: 35px ;
-  }
-}
 
-@media (max-width: 480px) {
-  .logop {
-    font-size: 25px ;
-  }
-}
 
   /*--------------------------------------------------------------
 # About
@@ -1518,7 +1538,6 @@ html, body {
     padding: 0;
   }
 }
-
 
 
 
