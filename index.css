@@ -241,8 +241,8 @@ html, body {
     color: #fff;
   }
   #header .logo h1 a, #header .logo h1 a:hover {
-    color: #fff;
     text-decoration: underline 3px solid #d8a659;
+    color: #fff;
     background-image: linear-gradient(
       to right,
       #cb9b51 0,
@@ -639,14 +639,10 @@ html, body {
   /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-#about
-{
-  
-}
 
 .about-head
 {
-color: rgb(104, 104, 104);
+color: rgb(0, 0, 0);
 }
 
 .mydiv-area {
@@ -910,7 +906,7 @@ color: rgb(104, 104, 104);
   width: 150px;
   border-radius: 50%;
   /*border: 6px solid rgba(255, 255, 255, 0.15);*/
-  border: 6px solid #f4976c;
+  border: 6px solid #d9d8d8;
   margin: 0 auto;
 }
 .testimonials .testimonial-item h3 {
@@ -958,7 +954,7 @@ color: rgb(104, 104, 104);
   opacity: 1;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color:#f4976c;
+  background-color:#ffffff;
 }
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
@@ -1137,16 +1133,44 @@ color: rgb(104, 104, 104);
 }
 
 .footer-logo h2 {
-  color: #222;
   padding: 0;
   margin: 0;
   font-size: 36px;
   font-weight: bold;
   line-height: 1;
+  color: #fff;
+    background-image: linear-gradient(
+      to right,
+      #cb9b51 0,
+      #d8a659 22%, 
+     #f6e27a 45%,
+     #f6f2c0 50%,
+     #f6e27a 55%,
+     #d8a659 78%,
+     #cb9b51 100%
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .footer-logo h2 span {
-  color:#f4976c;
+  color: #fff;
+    background-image: linear-gradient(
+      to right,
+      #cb9b51 0,
+      #d8a659 22%, 
+     #f6e27a 45%,
+     #f6f2c0 50%,
+     #f6e27a 55%,
+     #d8a659 78%,
+     #cb9b51 100%
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .footer-icons ul li {
