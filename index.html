@@ -5,6 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+<!--Ajax Library-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <title>Kuttippuram Kalari</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -718,7 +721,7 @@
           <!--https://www.youtube.com/watch?v=0X0kovjzLrw&ab_channel=EGATOR-->
           <div class="col-md-6">
             <div class="form contact-form">
-              <form action="https://script.google.com/macros/s/AKfycbzqxC8Aw8aF7Hj0YpLqMsVp5rgEDlJ2Gf_-YY0-7Tn6GXhtbCfKDu3M9Ps1dc64Dxsc/exec" id="gform" method="POST" role="form" class="php-email-form">
+              <form action="" id="submit-form" role="form" class="php-email-form">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Full Name" required>
                 </div>
@@ -837,6 +840,27 @@
 
 <!-- Template Main JS File -->
 <script src="index.js"></script>
+
+<!--contact form script-->
+<script>
+  $("#submit-form").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+          url:"https://script.google.com/macros/s/AKfycby49_qYKWH_sxupfbDnVZanYL0rDk-vfus85i23qav0j3Le8HGEBFBWQJEjv3ZvcOQ/exec",
+          data:$("#submit-form").serialize(),
+          method:"post",
+          success:function (response){
+              alert("Form submitted successfully")
+              window.location.reload()
+              //window.location.href="https://google.com"
+          },
+          error:function (err){
+              alert("Something Error")
+
+          }
+      })
+  })
+</script>
 
 </body>
 </html>
