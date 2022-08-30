@@ -446,7 +446,7 @@ html, body {
   }
   #hero .carousel-item::before {
     content: "";
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
   }
   #hero .carousel-container {
     display: flex;
@@ -652,7 +652,7 @@ color: rgb(0, 0, 0);
   .single-well > a {
     display: block;
   }
-  
+
   .single-well p {
     color: #444;
     text-align: justify;
@@ -663,10 +663,11 @@ color: rgb(0, 0, 0);
 
   .single-well .malpara
   {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     color: #444;
     text-align: justify;
+    font-family: 'Noto Sans Malayalam';
   }
 
   .single-well .maltogh5
