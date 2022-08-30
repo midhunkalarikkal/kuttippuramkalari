@@ -760,6 +760,19 @@ color: rgb(0, 0, 0);
     border-radius: 50%;
   }
 
+  /* small mobile :320px. */
+@media (max-width: 767px) {
+  .switchbtn {
+    margin-top: -25%;
+  }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .switchbtn {
+    margin-top: -25%;
+  }
+}
   /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
