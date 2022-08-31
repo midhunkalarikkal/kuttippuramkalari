@@ -1119,6 +1119,26 @@ color: rgb(0, 0, 0);
   background: #f3f1f1;
 }
 
+@media (max-width: 500px) {
+  .footer-head2 {
+    margin-top: 20%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .footer-head2 {
+    margin-top: 10%;
+  }
+}
+
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .container-ftlogo .ftlogo {
+    width: 200px;
+    height: auto;
+  }
+}
+
 .footer-head p {
   color: #444;
 }
