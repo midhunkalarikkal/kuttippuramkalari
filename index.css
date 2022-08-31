@@ -897,7 +897,7 @@ color: rgb(0, 0, 0);
 
 .testimonials {
   padding: 80px 0;
-  background: url("/assets/img/background/bg1.jpg") no-repeat;
+  background: url("https://firebasestorage.googleapis.com/v0/b/kuttipppuramkalari.appspot.com/o/Testimonials%2Fbg1.jpg?alt=media&token=9eb0b7f0-c2a6-4fff-8a0e-174a5a626472") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
