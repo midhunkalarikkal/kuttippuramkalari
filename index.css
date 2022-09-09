@@ -881,11 +881,6 @@ text-decoration: none;
 
 /* Gallery photo mouseover hover tex*/
 
-.gallery-item div{
-  margin: 10px auto;
-  width: 90%;
-}
-
 .gallery-item-inner
 {
   position: relative;
