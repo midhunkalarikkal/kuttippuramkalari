@@ -207,7 +207,11 @@ html, body {
     width: 40%;
   }
 
+<<<<<<< HEAD
   .section-headline1 h2 {
+=======
+.section-headline1 h2 {
+>>>>>>> 3ae15e737e4bf53abaf7b4ce113f892dd7301fe9
     display: inline-block;
     font-size: 40px;
     font-weight: 600;
@@ -805,7 +809,11 @@ color: rgb(0, 0, 0);
 {
 color: rgb(255, 255, 255);
 text-decoration: none;
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 3ae15e737e4bf53abaf7b4ce113f892dd7301fe9
 
 .gallery{
   width: 100%;
