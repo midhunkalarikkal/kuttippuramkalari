@@ -105,9 +105,10 @@ html, body {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     text-align: left;
-    overflow-x: hidden;
+    overflow-x:hidden;
     line-height: 22px;
   }
+
   
   /*--------------------------------------------------------------
   # Back to top button
@@ -844,7 +845,7 @@ text-decoration: none;
   font-weight: 500;
 }
 .gallery .gallery-item{
-	width: calc(100% / 3);
+	width: calc(100%/3);
 	padding: 15px;
 }
 .gallery .gallery-item-inner img{
@@ -876,6 +877,12 @@ text-decoration: none;
 	}
 	.gallery .gallery-filter .filter-item{
 		margin-bottom: 10px;
+	}
+}
+
+@media(max-width: 666px){
+	.gallery .gallery-item{
+    margin-left: 10px;
 	}
 }
 
