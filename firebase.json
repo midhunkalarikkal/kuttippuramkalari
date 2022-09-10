@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build",
+    "public": "kalari.com",
     "ignore": [
       "firebase.json",
       "**/.*",
