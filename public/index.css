@@ -197,7 +197,7 @@ html, body {
   }
   
   .section-headline h2::after {
-    border: 1px solid #333;
+    border: 1px solid rgb(0, 0, 0);
     bottom: -20px;
     content: "";
     left: 0;
@@ -935,6 +935,28 @@ text-decoration: none;
   background-size: cover;
   position: relative;
 }
+
+.section-headline2 h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 70px;
+  position: relative;
+  text-transform: capitalize;
+  color: rgb(206, 206, 205);
+}
+
+.section-headline2 h2::after {
+  border: 1px solid rgb(255, 255, 255);
+  bottom: -20px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
 .testimonials::before {
   content: "";
   position: absolute;
