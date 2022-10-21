@@ -256,6 +256,24 @@ function replace() {
   }
 });
 
+$("#submit-form").submit((e)=>{
+  e.preventDefault()
+  $.ajax({
+      url:"https://script.google.com/macros/s/AKfycbyg8rt43EoSqVDLYMLiqnDccQ3sWnVRTpnC31cgbdQfiqDBzY9u0W16MdQKoXeAZUD--g/exec",
+      data:$("#submit-form").serialize(),
+      method:"post",
+      success:function (response){
+          alert("Thank you for getting in touch with us!")
+          window.location.reload()
+          //window.location.href="https://google.com"
+      },
+      error:function (err){
+          alert("Something Error")
+
+      }
+  })
+})
+
 
 
 
