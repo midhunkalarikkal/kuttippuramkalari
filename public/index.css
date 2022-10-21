@@ -90,11 +90,6 @@ html, body {
     text-decoration: none;
   }
   
-  a:hover {
-    color: #3EC1D5;
-    text-decoration: none;
-  }
-  
   a:active, a:hover {
     outline: 0 none;
   }
