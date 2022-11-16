@@ -1305,6 +1305,17 @@ text-decoration: none;
   color: #DB4437;
 }
 
+.footer-contacts .lin {
+  color: #0072B1;
+}
+
+.ul p{
+  float: left; 
+  text-decoration: none; 
+  padding: 10px 25px; 
+  list-style-type: none
+}
+
 .footer-contacts p a  {
   color: #000000;
   font-weight: 600;
@@ -1347,14 +1358,9 @@ text-decoration: none;
   color: #444;
 }
 
-.copyright a, .credits a {
+.copyright a {
   color: #000000;
   font-weight: 600;
-}
-
-.credits {
-  padding-top: 5px;
-  text-align: center;
 }
 
 .supporters
