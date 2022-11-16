@@ -1310,11 +1310,10 @@ text-decoration: none;
 }
 
 .ul p{
-  float: left; 
-  text-decoration: none; 
-  padding: 10px 25px; 
+  text-decoration: none;  
   list-style-type: none
 }
+
 
 .footer-contacts p a  {
   color: #000000;
