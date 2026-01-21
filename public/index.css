@@ -242,9 +242,11 @@ html, body {
     line-height: 1;
     font-weight: bold;
   }
+  
   #header .logo h1 span {
     color: #fff;
   }
+
   #header .logo h1 a, #header .logo h1 a:hover {
     text-decoration: underline 3px solid #d8a659;
     color: #fff;
